@@ -1,19 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
-using System.Linq;
 using System.ServiceProcess;
-using System.Text;
-using System.Threading.Tasks;
 using EasyNetQ;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using Ninject;
-using SocketIOClient.Messages;
-using System.Net;
-using System.IO;
 using TDJ.Panel.Library;
 
 namespace TDJ.Alarm.SocketIO.Worker

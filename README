@@ -1,1 +1,9 @@
-README
+This solution and combined projects allow for messages to be picked up from RabbitMQ and send to a AD2USB.
+
+AD2USB acts as a control panel for Honeywell/Ademco alarm panels and provides a serial connection to listen and execute commands to your alarm system programmatically.
+
+- Worker
+Listens for messages in rabbitMQ
+
+- Library
+Provides connectivity to FireBase and the alarm panel through a serial connection to AD2USB
