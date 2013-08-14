@@ -1,0 +1,79 @@
+﻿.checkbox {
+  display: block;
+  width: 94px;
+  height: 27px;
+  overflow: hidden;
+  border-radius: 3px;
+}  
+
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] + label {
+  text-indent: -9999px;
+  display: block;
+  width: 150px;
+  height: 27px;
+  line-height: 27px;
+  background: transparent url(http://dl.dropbox.com/u/391082/sprite2.png) no-repeat -56px 0;
+}
+
+input[type=checkbox]:checked + label {
+  -webkit-transition: background-position 0.01s ease-in-out;
+  -moz-transition: background-position 0.01s ease-in-out;
+  background-position: -3px 0;
+}
+
+input[type=checkbox], input[type=checkbox] + label, input[type=checkbox]:checked + label  {
+    cursor:pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+/* TODO: Change boolean to btnSwitch */
+ .boolean{
+    width: 6em;
+    height: 29px;
+    line-height: 29px;
+    padding:0;
+    font-family: 
+    "Droid Sans", "Lucida Grande", 
+    Verdana, Arial, sans-serif, Helvetica;
+   }
+   
+/* TODO: Change show/hide to btnSwitchShow/hide */
+.show{display:block;}
+
+.hide{display:none;}
+
+/* TODO: Change on/off to btnSwitchOn/Off */
+.on, .off{
+    border-radius: 3px 3px 3px 3px;
+    font-weight:700;
+    text-align:center;
+    width:3em;
+    }
+    
+  .on{
+    float:left;
+  }
+  
+  /* TODO: Change colof of off to match contrast with on or not! */
+  .off{
+    background-color:#CCCCCC;
+    color:#666666;
+    float:right;
+  }
+  
+  .boolean, .on, .off{
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }

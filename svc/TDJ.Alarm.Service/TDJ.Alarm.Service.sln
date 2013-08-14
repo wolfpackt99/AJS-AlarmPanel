@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDJ.WebPanel", "TDJ.WebPanel\TDJ.WebPanel.csproj", "{D6EE5FD3-3938-4320-81E9-4595698D6C32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDJ.WebPanel.Tests", "TDJ.WebPanel.Tests\TDJ.WebPanel.Tests.csproj", "{8E86B48B-B854-4569-A525-4D6A4E2F3DCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDJ.Panel.Library", "TDJ.Panel.Library\TDJ.Panel.Library.csproj", "{E745836D-53F8-44A6-864C-22C0ACCC9A2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDJ.Panel.Library.Tests", "TDJ.Panel.Library.Tests\TDJ.Panel.Library.Tests.csproj", "{A06739FE-B491-409E-B28F-762A8B770A40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDJ.Alarm.SocketIO.Worker", "TDJ.Alarm.SocketIO.Worker\TDJ.Alarm.SocketIO.Worker.csproj", "{7DE0E783-8F6F-466E-BF8F-FD382B540F97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDJ.NetDuino.Worker", "TDJ.NetDuino.Worker\TDJ.NetDuino.Worker.csproj", "{D79C4971-78FC-458C-ACC1-EE395CCB4723}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6EE5FD3-3938-4320-81E9-4595698D6C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6EE5FD3-3938-4320-81E9-4595698D6C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6EE5FD3-3938-4320-81E9-4595698D6C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6EE5FD3-3938-4320-81E9-4595698D6C32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E86B48B-B854-4569-A525-4D6A4E2F3DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E86B48B-B854-4569-A525-4D6A4E2F3DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E86B48B-B854-4569-A525-4D6A4E2F3DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E86B48B-B854-4569-A525-4D6A4E2F3DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E745836D-53F8-44A6-864C-22C0ACCC9A2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E745836D-53F8-44A6-864C-22C0ACCC9A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E745836D-53F8-44A6-864C-22C0ACCC9A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E745836D-53F8-44A6-864C-22C0ACCC9A2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A06739FE-B491-409E-B28F-762A8B770A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A06739FE-B491-409E-B28F-762A8B770A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A06739FE-B491-409E-B28F-762A8B770A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A06739FE-B491-409E-B28F-762A8B770A40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE0E783-8F6F-466E-BF8F-FD382B540F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE0E783-8F6F-466E-BF8F-FD382B540F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE0E783-8F6F-466E-BF8F-FD382B540F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE0E783-8F6F-466E-BF8F-FD382B540F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79C4971-78FC-458C-ACC1-EE395CCB4723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79C4971-78FC-458C-ACC1-EE395CCB4723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79C4971-78FC-458C-ACC1-EE395CCB4723}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D79C4971-78FC-458C-ACC1-EE395CCB4723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79C4971-78FC-458C-ACC1-EE395CCB4723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79C4971-78FC-458C-ACC1-EE395CCB4723}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
